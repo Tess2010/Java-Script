@@ -10,3 +10,8 @@ for (let i = 1; i <= 10; i++) {
 for (let num = 2; num <= 20; num += 2) {
     console.log(num);
 }
+
+// Question 3
+for (let num1 = 10; num1 >= 1; num1 --) {
+    console.log(num1);
+}
