@@ -22,3 +22,12 @@ for (let num2 = 1; num2 <= 10; num2 ++) {
     console.log(`5 * ${num2} = ${5 * num2} `);
 
 }
+
+//Question 5 - Declare & print an array of names
+//declare array
+let names = ["Tyrese", "Jaydis", "Derrick", "Luna", "Nahmir"];
+for(let i = 0; i <= names.length - 1; i ++) {
+    console.log(names[i]);
+}
+
+
