@@ -51,3 +51,22 @@ for (let i = 1; i < numbers.length; i++) {
     }
 }
 console.log ("The largest number is: " + largest)
+
+//Question 8 - For loop for 1-20; Mutilples of 3 print 'Fizz'; Multilples of 5 Print 'Buzz'
+//Multilples of 3 & 5 Print 'FizzBuzz'
+//Create for loop
+for (let i =1; i <=20; i++) {
+//This how you find out if the number is a multiple of 3 & 5 
+    if (i % 3 === 0 && i % 5 ===0) {
+        console.log("FizzBuzz");
+//This how you find if the number is a multiple of 3
+    } else if (i % 3 === 0) {
+        console.log("Fizz"); 
+//This how you find if the number is a multiple of 5
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+//If it's not a multiple of 3 or 5, print the number itslef.
+    } else {
+        console.log(i);
+    }
+}
