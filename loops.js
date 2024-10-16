@@ -26,8 +26,14 @@ for (let num2 = 1; num2 <= 10; num2 ++) {
 //Question 5 - Declare & print an array of names
 //declare array
 let names = ["Tyrese", "Jaydis", "Derrick", "Luna", "Nahmir"];
+//Remember that your array starts at 0 so you must end at the name of the array - 1"
 for(let i = 0; i <= names.length - 1; i ++) {
     console.log(names[i]);
 }
 
-
+//Question 6 - Sum of numbers 1-100
+let sum = 0;
+for (let i = 1; i <= 100; i++) {
+    sum += i;
+}
+console.log(sum);
