@@ -70,3 +70,18 @@ for (let i =1; i <=20; i++) {
         console.log(i);
     }
 }
+//Question 9 print the first 10 Fibonacci figures
+//Declare the first two numbers in the sequence
+let fibnum1 = 0; //First Fibonacci number
+let fibnum2 = 1; //Second fibonacci number
+//We can print the first 2 numbers as we already declared them
+console.log(fibnum1);
+console.log(fibnum2);
+//Create a for loop to print the remaining 8 Fibonacci numbers
+for (let i = 2; i < 10; i++) {
+    let nextnum = fibnum1 + fibnum2; //Calculates the next Fibonacci number
+    console.log(nextnum);
+//Now you have to update the fibnum1 & fibnum2 for the next number
+    fibnum1 = fibnum2;
+    fibnum2 = nextnum;
+}
