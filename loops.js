@@ -73,7 +73,7 @@ for (let i =1; i <=20; i++) {
 //Question 9 print the first 10 Fibonacci figures
 //Declare the first two numbers in the sequence
 let fibnum1 = 0; //First Fibonacci number
-let fibnum2 = 1; //Second fibonacci number
+let fibnum2 = 1; //Second Fibonacci number
 //We can print the first 2 numbers as we already declared them
 console.log(fibnum1);
 console.log(fibnum2);
@@ -85,3 +85,12 @@ for (let i = 2; i < 10; i++) {
     fibnum1 = fibnum2;
     fibnum2 = nextnum;
 }
+
+//Question 10 For loop to reverse a String & print the reversed Strin
+//Create first string and reversed string "holder"
+let string = "I love my grandchidren!";
+let reversedString = "";
+for (let i = string.length - 1; i >= 0; i --) {
+    reversedString += string[i];
+}
+console.log(reversedString);
