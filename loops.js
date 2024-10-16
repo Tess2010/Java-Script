@@ -26,7 +26,7 @@ for (let num2 = 1; num2 <= 10; num2 ++) {
 //Question 5 - Declare & print an array of names
 //declare array
 let names = ["Tyrese", "Jaydis", "Derrick", "Luna", "Nahmir"];
-//Remember that your array starts at 0 so you must end at the name of the array - 1"
+//Remember that your array starts at 0 so you must end at the 'name of the array' - 1"
 for(let i = 0; i <= names.length - 1; i ++) {
     console.log(names[i]);
 }
@@ -37,3 +37,17 @@ for (let i = 1; i <= 100; i++) {
     sum += i;
 }
 console.log(sum);
+
+//Question 7 - Declare 5 number array and print largest with step by step
+// Initialize array
+let numbers = [19, 3, 6, 24, 14];
+// Set variable for largest number to first number in array
+let largest = numbers[0];
+// Create for loop
+for (let i = 1; i < numbers.length; i++) {
+//This tells me that if the number is larger than this number it now bedomes the largest number.
+    if (numbers[i] > largest) {
+        largest = numbers[i];
+    }
+}
+console.log ("The largest number is: " + largest)
