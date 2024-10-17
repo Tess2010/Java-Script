@@ -124,3 +124,19 @@ for (let i = 0; i < arrayA.length; i++) {
     arraySum += arrayA[i]
 }
 console.log(arraySum);
+
+//Question 15 - Print all the multiples of 4 between 1 and 40
+for (let i = 1; i <= 40; i++) { //Create for loop
+    if (i % 4 === 0) {  //determine if the number a multiple of 4
+        console.log(i); //Print to console
+    }
+}
+
+//While Loops Questions
+
+//Question 16 - Print number 1 -10
+let d = 1; //Start with 1 (Initialization)
+while (d <=10) { //Continue WHILE d is less or equal to 10 (Condition)
+    console.log(d); //Print the value of d
+    d++; //Increase d by 1 (Increment)
+}
