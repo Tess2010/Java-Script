@@ -140,3 +140,11 @@ while (d <=10) { //Continue WHILE d is less or equal to 10 (Condition)
     console.log(d); //Print the value of d
     d++; //Increase d by 1 (Increment)
 }
+
+//Question 17
+let n = 10; //Initialize
+while (n >= 1) { //Set condition
+    console.log(n); //Print value of n
+    n --;
+
+}
