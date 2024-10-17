@@ -111,6 +111,16 @@ for (let i = 1; i <= facNum; i++) { //Write your for loop
 }
 console.log (answer); //Print to console
 
+//Question 13 - Print the word on separate lines using for loop
+let string1 = "JavaScript";
+for (i = 0; i < string1.length - 1; i++) {
+    console.log(string1[i]); //Prints the current character after it printed the previous one
+}
 
-
-
+//Question 14 - Use forp loop and find the sum of an array of number
+let arrayA = [2,4,6,8,10]; //Declare array
+let arraySum = 0; //Set variable for sum
+for (let i = 0; i < arrayA.length; i++) {
+    arraySum += arrayA[i]
+}
+console.log(arraySum);
