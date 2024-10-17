@@ -98,7 +98,19 @@ console.log(reversedString);
 //Question 11 - Declare array of integers & print the odd numbers
 let array = [1, 2, 2, 3, 4, 5, 5, 6, 9];    //Declare array
 for (let i = 0; i < array.length; i++ ) { //Creat for loop
-    if (array[i] % 2 !== 0) {   //ifStatement
+    if (array[i] % 2 !== 0) {   //ifStatement 
         console.log(array[i]);
     } 
 }
+
+//Question 12 - Print factorial of the number 6 using a for loop
+let facNum = 6; //Declare your factorial number
+let answer = 1; //Set the answer to 1
+for (let i = 1; i <= facNum; i++) { //Write your for loop
+    answer *= i;
+}
+console.log (answer); //Print to console
+
+
+//Question 13 - Print JavaScript on separate lines using for loop
+// = "JavaScript"
