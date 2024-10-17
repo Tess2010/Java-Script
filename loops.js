@@ -112,5 +112,5 @@ for (let i = 1; i <= facNum; i++) { //Write your for loop
 console.log (answer); //Print to console
 
 
-//Question 13 - Print JavaScript on separate lines using for loop
-// = "JavaScript"
+
+
