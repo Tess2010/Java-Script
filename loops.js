@@ -86,11 +86,19 @@ for (let i = 2; i < 10; i++) {
     fibnum2 = nextnum;
 }
 
-//Question 10 For loop to reverse a String & print the reversed Strin
+//Question 10 - For loop to reverse a String & print the reversed Strin
 //Create first string and reversed string "holder"
 let string = "I love my grandchidren!";
 let reversedString = "";
-for (let i = string.length - 1; i >= 0; i --) {
-    reversedString += string[i];
+for (let i = string.length - 1; i >= 0; i --) { //Create for loop
+    reversedString += string[i]; //I JavaScript, use brackets to get the characters in a string not parenthesisgit
 }
 console.log(reversedString);
+
+//Question 11 - Declare array of integers & print the odd numbers
+let array = [1, 2, 2, 3, 4, 5, 5, 6, 9];    //Declare array
+for (let i = 0; i < array.length; i++ ) { //Creat for loop
+    if (array[i] % 2 !== 0) {   //ifStatement
+        console.log(array[i]);
+    } 
+}
