@@ -162,3 +162,9 @@ while (o <= count) { //Continue while n is less than or equal to the count
     console.log(o * 3); //Print multiples of 3
     o++;//Increase by 1
 }
+//Question 20 Declare a number, divide by 2 until it is less than 1- Print each result
+let p = 50; //Start with your number
+while (p >= 1) { //Continue while p is greater than 1
+    console.log(p);
+    p /= 2; //Divide the number by 2 each time
+}
