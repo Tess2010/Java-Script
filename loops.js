@@ -134,17 +134,24 @@ for (let i = 1; i <= 40; i++) { //Create for loop
 
 //While Loops Questions
 
-//Question 16 - Print number 1 -10
+//Question 16 - Print number 1 - 10
 let d = 1; //Start with 1 (Initialization)
 while (d <=10) { //Continue WHILE d is less or equal to 10 (Condition)
     console.log(d); //Print the value of d
     d++; //Increase d by 1 (Increment)
 }
 
-//Question 17
+//Question 17 - Print numbers 10 - 1
 let n = 10; //Initialize
 while (n >= 1) { //Set condition
     console.log(n); //Print value of n
-    n --;
-
+    n --; //Decrease by 1
 }
+
+//Question 18 - Print number as long as they are less than 5
+let m = 0; //Initialize and set m to 0
+while ( n < 5) {
+    console.log(n);
+    n++; //Increase by 1
+}
+
