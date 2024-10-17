@@ -179,9 +179,16 @@ while (q <= 50) { //Condition
 console.log(sumQ); //Print
 
 //Question 22 Print digit os number from right to left
-let digit = 4567;
-while (digit > 0){
-    let lastNum = digit % 10;
-    console.log(lastNum);
-    digit = Math.floor(digit / 10);
+let digit = 4567; //Set number to use
+while (digit > 0){ // Condition to get last digit
+    let lastNum = digit % 10; // Creates a temp storage
+    console.log(lastNum);  //Prints last number
+    digit = Math.floor(digit / 10); // Continues until condition is met
+}
+//Alternate way to do question 22 using a String
+let digit2 = "4567";
+let num3 = digit2.length - 1;
+while (num3 >= 0){
+    console.log(digit2[num3])
+    num3--;
 }
