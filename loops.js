@@ -155,3 +155,10 @@ while ( n < 5) {
     n++; //Increase by 1
 }
 
+//Question 19 - Print first 10 multiples of 3
+let o = 1; //Initialize
+let count = 10; // We want to print the first 10 multiples
+while (o <= count) { //Continue while n is less than or equal to the count
+    console.log(o * 3); //Print multiples of 3
+    o++;//Increase by 1
+}
