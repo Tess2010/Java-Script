@@ -3,7 +3,7 @@
 
 //Question 1 - Count numbers from 1-10
 for (let i = 1; i <= 10; i++) {
-    console.log(i) ;
+    console.log(i);
 }
 
 //Question 2 - Even numbers from 2-20
@@ -12,13 +12,13 @@ for (let num = 2; num <= 20; num += 2) {
 }
 
 // Question 3 - Count down from 10-1
-for (let num1 = 10; num1 >= 1; num1 --) {
+for (let num1 = 10; num1 >= 1; num1--) {
     console.log(num1);
 }
 
 //Question 4 - Multiplication table of 5
 
-for (let num2 = 1; num2 <= 10; num2 ++) {
+for (let num2 = 1; num2 <= 10; num2++) {
     console.log(`5 * ${num2} = ${5 * num2} `);
 
 }
@@ -27,7 +27,7 @@ for (let num2 = 1; num2 <= 10; num2 ++) {
 //declare array
 let names = ["Tyrese", "Jaydis", "Derrick", "Luna", "Nahmir"];
 //Remember that your array starts at 0 so you must end at the 'name of the array' - 1"
-for(let i = 0; i <= names.length - 1; i ++) {
+for (let i = 0; i <= names.length - 1; i++) {
     console.log(names[i]);
 }
 
@@ -45,27 +45,27 @@ let numbers = [19, 3, 6, 24, 14];
 let largest = numbers[0];
 // Create for loop
 for (let i = 1; i < numbers.length; i++) {
-//This tells me that if the number is larger than this number it now bedomes the largest number.
+    //This tells me that if the number is larger than this number it now bedomes the largest number.
     if (numbers[i] > largest) {
         largest = numbers[i];
     }
 }
-console.log ("The largest number is: " + largest)
+console.log("The largest number is: " + largest)
 
 //Question 8 - For loop for 1-20; Mutilples of 3 print 'Fizz'; Multilples of 5 Print 'Buzz'
 //Multilples of 3 & 5 Print 'FizzBuzz'
 //Create for loop
-for (let i =1; i <=20; i++) {
-//This how you find out if the number is a multiple of 3 & 5 
-    if (i % 3 === 0 && i % 5 ===0) {
+for (let i = 1; i <= 20; i++) {
+    //This how you find out if the number is a multiple of 3 & 5 
+    if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
-//This how you find if the number is a multiple of 3
+        //This how you find if the number is a multiple of 3
     } else if (i % 3 === 0) {
-        console.log("Fizz"); 
-//This how you find if the number is a multiple of 5
+        console.log("Fizz");
+        //This how you find if the number is a multiple of 5
     } else if (i % 5 === 0) {
         console.log("Buzz");
-//If it's not a multiple of 3 or 5, print the number itslef.
+        //If it's not a multiple of 3 or 5, print the number itslef.
     } else {
         console.log(i);
     }
@@ -81,7 +81,7 @@ console.log(fibnum2);
 for (let i = 2; i < 10; i++) {
     let nextnum = fibnum1 + fibnum2; //Calculates the next Fibonacci number
     console.log(nextnum);
-//Now you have to update the fibnum1 & fibnum2 for the next number
+    //Now you have to update the fibnum1 & fibnum2 for the next number
     fibnum1 = fibnum2;
     fibnum2 = nextnum;
 }
@@ -90,17 +90,17 @@ for (let i = 2; i < 10; i++) {
 //Create first string and reversed string "holder"
 let string = "I love my grandchidren!";
 let reversedString = "";
-for (let i = string.length - 1; i >= 0; i --) { //Create for loop
+for (let i = string.length - 1; i >= 0; i--) { //Create for loop
     reversedString += string[i]; //I JavaScript, use brackets to get the characters in a string not parenthesisgit
 }
 console.log(reversedString);
 
 //Question 11 - Declare array of integers & print the odd numbers
 let array = [1, 2, 2, 3, 4, 5, 5, 6, 9];    //Declare array
-for (let i = 0; i < array.length; i++ ) { //Creat for loop
+for (let i = 0; i < array.length; i++) { //Creat for loop
     if (array[i] % 2 !== 0) {   //ifStatement 
         console.log(array[i]);
-    } 
+    }
 }
 
 //Question 12 - Print factorial of the number 6 using a for loop
@@ -109,7 +109,7 @@ let answer = 1; //Set the answer to 1
 for (let i = 1; i <= facNum; i++) { //Write your for loop
     answer *= i;
 }
-console.log (answer); //Print to console
+console.log(answer); //Print to console
 
 //Question 13 - Print the word on separate lines using for loop
 let string1 = "JavaScript";
@@ -118,7 +118,7 @@ for (i = 0; i < string1.length - 1; i++) {
 }
 
 //Question 14 - Use forp loop and find the sum of an array of number
-let arrayA = [2,4,6,8,10]; //Declare array
+let arrayA = [2, 4, 6, 8, 10]; //Declare array
 let arraySum = 0; //Set variable for sum
 for (let i = 0; i < arrayA.length; i++) {
     arraySum += arrayA[i]
@@ -136,7 +136,7 @@ for (let i = 1; i <= 40; i++) { //Create for loop
 
 //Question 16 - Print number 1 - 10
 let d = 1; //Start with 1 (Initialization)
-while (d <=10) { //Continue WHILE d is less or equal to 10 (Condition)
+while (d <= 10) { //Continue WHILE d is less or equal to 10 (Condition)
     console.log(d); //Print the value of d
     d++; //Increase d by 1 (Increment)
 }
@@ -145,12 +145,12 @@ while (d <=10) { //Continue WHILE d is less or equal to 10 (Condition)
 let n = 10; //Initialize
 while (n >= 1) { //Set condition
     console.log(n); //Print value of n
-    n --; //Decrease by 1
+    n--; //Decrease by 1
 }
 
 //Question 18 - Print number as long as they are less than 5
 let m = 0; //Initialize and set m to 0
-while ( n < 5) {
+while (n < 5) {
     console.log(n);
     n++; //Increase by 1
 }
@@ -178,9 +178,9 @@ while (q <= 50) { //Condition
 }
 console.log(sumQ); //Print
 
-//Question 22 Print digit os number from right to left
+//Question 22 Print digits number from right to left
 let digit = 4567; //Set number to use
-while (digit > 0){ // Condition to get last digit
+while (digit > 0) { // Condition to get last digit
     let lastNum = digit % 10; // Creates a temp storage
     console.log(lastNum);  //Prints last number
     digit = Math.floor(digit / 10); // Continues until condition is met
@@ -188,7 +188,18 @@ while (digit > 0){ // Condition to get last digit
 //Alternate way to do question 22 using a String
 let digit2 = "4567";
 let num3 = digit2.length - 1;
-while (num3 >= 0){
+while (num3 >= 0) {
     console.log(digit2[num3])
     num3--;
+}
+//Shorter way for ques 22
+let digit3 = "4567"
+for (i = digit3.length - 1; i >= 0;  i--) {
+    console.log(digit3[i])
+}
+
+//Question 23 - Keep prompting the user until they enter the word stop
+let input = "";
+while (input != "stop") {
+
 }
