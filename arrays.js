@@ -13,4 +13,10 @@ let sum = 0; //
 for (let i = 0; i < array2.length; i++) {
     sum += array2[i]
 }
-console.log(sum)
+console.log(sum);
+
+//Question 4 - Array of 5 strings use loop, print each on a new line
+let stringArray = ["Love", "Live", "Laugh", "Peace", "Faith"]; //Declare string array
+for (let i = 0; i <= stringArray.length -1; i++) {
+    console.log(stringArray[i]);
+}
