@@ -31,3 +31,15 @@ for (let i = 0; i < array3.length; i++){
     }
 }    
 console.log("The largest number is " + largest);
+
+//Question 6 - Array of numbers, print smallest
+let array4 = [10,5,15,23,2];
+let smallest = array4[0];
+// Create for loop
+for (let i = 0; i < array4.length; i++){
+    //This tells me that if the number is smaller ten now bedomes the smallest number.
+    if (array4[i] < smallest) {
+        smallest = array4[i];
+    }
+}    
+console.log("The smallest number is " + smallest);
