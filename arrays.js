@@ -37,9 +37,18 @@ let array4 = [10,5,15,23,2];
 let smallest = array4[0];
 // Create for loop
 for (let i = 0; i < array4.length; i++){
-    //This tells me that if the number is smaller ten now bedomes the smallest number.
+    //This tells me that if the number is smaller, then it now becomes the smallest number.
     if (array4[i] < smallest) {
         smallest = array4[i];
     }
 }    
 console.log("The smallest number is " + smallest);
+
+//Question 7 - Print the average of the array of numbers
+let array5 = [77,57,55,54,53]; //Declare your array
+let sumA = 0; //Declare your sum
+for (let i = 0; i < array5.length; i++) { //Create a for loop
+    sumA += array5[i] //Calculate the sum
+}
+let average = sumA / array5.length; //Calculate the average
+console.log("The average of the array of numbers is " + average);
