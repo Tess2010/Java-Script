@@ -51,19 +51,36 @@ for (let i = 0; i < array5.length; i++) { //Create a for loop
     sumA += array5[i] //Calculate the sum
 }
 let average = sumA / array5.length; //Calculate the average
-console.log("The average of the array of numbers is " + average);
+console.log("The average of the array of numbers is " + average); //Print
 
 //Question 8 - Declare an array and print all even numbers
-let array6 = [2,3,5,6,7,9,10,11,13,14];
-for (let i = 0;i < array6.length; i++) {
-if (array6[i] % 2 === 0){
-    console.log(array6[i]);
+let array6 = [2,3,5,6,7,9,10,11,13,14]; //Declare array
+for (let i = 0;i < array6.length; i++) { //Create loop
+if (array6[i] % 2 === 0){ //Determine if number is even
+    console.log(array6[i]);  //Print
     }
 }
 //Question 9 - Declare an array and print all odd numbers
-let array7 = [2,3,5,6,7,9,10,11,13,14];
-for (let i = 0;i < array7.length; i++) {
-if (array7[i] % 2 === 1){
-    console.log(array7[i]);
+let array7 = [2,3,5,6,7,9,10,11,13,14]; //Declare array
+for (let i = 0;i < array7.length; i++) { //Create loop
+if (array7[i] % 2 === 1){ //Determine if number is odd
+    console.log(array7[i]); //Print
     }
+}
+
+//Question 10 - Declare array of strings, check for a specific string - pring "Found" or "Not found"
+/* let string2 = ["Peaches", "Plums", "Nectarines", "Clementines", "Tangerines"];
+for (let i = 0; i = string2.length; i++) {
+    if (string2.length[i] = "watermelon") {
+        console.log("Found");
+    } else {
+        console.log("Not found");
+    }
+}
+ */
+
+//Question 11 - Declare an array and reverse print
+let array8 = [1,2,3,4,5,6,7,8];
+for (let i = 7; i >= 0; i--) {
+    console.log(array8[i]);
 }
