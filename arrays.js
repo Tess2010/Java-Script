@@ -69,15 +69,15 @@ if (array7[i] % 2 === 1){ //Determine if number is odd
 }
 
 //Question 10 - Declare array of strings, check for a specific string - pring "Found" or "Not found"
-/* let string2 = ["Peaches", "Plums", "Nectarines", "Clementines", "Tangerines"];
-for (let i = 0; i = string2.length; i++) {
-    if (string2.length[i] = "watermelon") {
+let string2 = ["Peaches", "Plums", "Nectarines", "Clementines", "Tangerines"];
+for (let i = 0; i < string2.length; i++) {
+    if (string2[i] === "Tangerines") {
         console.log("Found");
     } else {
         console.log("Not found");
     }
 }
- */
+
 
 //Question 11 - Declare an array and reverse print
 let array8 = [1,2,3,4,5,6,7,8];
