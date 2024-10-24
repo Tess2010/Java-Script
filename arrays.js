@@ -116,6 +116,51 @@ arrayE.push("Beth");
 console.log(arrayE);
 
 //Question 17 - Declare array of names and remove the last name, print
-let arrayF = ["Tim", "Bob"];
-arrayF.pop();
-console.log(arrayF);
+let arrayF = ["Tim", "Bob"]; //Declare array
+arrayF.pop(); //POp removes the last element in the array
+console.log(arrayF); //Print
+
+//Question 18 - Declare array, use 'map function' to create new array that is doubled
+let arrayG = [2,4,6]; //Declare array
+const doubled = arrayG.map(num => num * 2);//Declare new array using the map function ('num is a place holder') 
+console.log(doubled);//Print
+
+//Question 19 - Declare array, use 'filter function' create new array with numbers > than 10
+let arrayH = [10,1,13,,8,16];
+const greater = arrayH.filter(num => num>10); //Filter function takes the number and filter to get what you need
+console.log(greater);
+
+//Question 20 - Use 'reduce function' to find the sum of an array
+let nums = [2,3,4,6,7,8];
+let sum5 = nums.reduce((x,y)=> x + y, 0);  //Reduce function reduces the numbers to a single digit
+console.log(sum5);
+
+//Question 21 - Use 'indexOf method to find the index of a specific num in the array, print the index
+let arrayI = [0,1,2,3,4];
+let index = arrayI.indexOf(3); //Get the index of the number in the array
+console.log(index);
+
+//Question 22 - Use the include method to see if a specific name exists
+let nom = ["Dee","Nate", "Mikey"];
+let ans = nom.includes("Nate");
+if (ans){
+    console.log("Found");
+}   
+else {
+    console.log("Not found");
+    }
+
+//Question 23 - Use the 'slice method' to creat a new array with the first 3 numbers, print it
+let arrayJ = [2,3,4,5,6];
+let newArray = arrayJ.slice(0,3); //This is where the slice function "slices out" the chosen elements after given index
+console.log(newArray);
+
+//Question 24 - Use 'splice method' to remoce the second & third numbers from the arrat, print updated array
+let arrayK = [0,1,2,3,4,5];
+arrayK.splice(1,2); //This is where you "splice (remove)" specific elements
+console.log(arrayK);
+
+//Question 25 - Declare a string, concatenate all strings into a single string, print
+let stringArray1 = ["A","b","C","d"];
+let newString = stringArray1.join("");//Create new string array using join to concantenate the original string array
+console.log(newString);
