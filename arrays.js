@@ -94,3 +94,18 @@ console.log(arrayB);//Print
 let arrayC = [10, 23, 7,15, 3, 20];//Declare array
 arrayC.sort((a,b) => b - a); //This stores the first 2 numbers in the array and compares them. Determines if it is positive or negative and prints the lowest num first.
 console.log(arrayC);//Print
+
+//Question 14 -Declare empty array, use a loop to add number 1-10 and print
+let array9 = []; //Declare blank array
+for (let i = 1; i <= 10; i++){ //Create for loop
+    array9.push(i); //Push number to the array
+}
+console.log(array9); //Print array
+
+//Question 15 - Declare array of 5 numbers. Print the product of all numbers in the array
+let arrayD = [1,2,3,4,5];
+let product = 1;
+for (let i = 0; i <= 4; i++) {
+    product *= arrayD[i];
+}
+console.log(product);
