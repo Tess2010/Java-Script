@@ -109,3 +109,13 @@ for (let i = 0; i <= 4; i++) {
     product *= arrayD[i];
 }
 console.log(product);
+
+//Question 16 - Declare array of name and add name at end and print new array
+let arrayE = ["Tess", "June", "Jill",];
+arrayE.push("Beth");
+console.log(arrayE);
+
+//Question 17 - Declare array of names and remove the last name, print
+let arrayF = ["Tim", "Bob"];
+arrayF.pop();
+console.log(arrayF);
