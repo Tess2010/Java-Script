@@ -84,3 +84,13 @@ let array8 = [1,2,3,4,5,6,7,8];
 for (let i = 7; i >= 0; i--) {
     console.log(array8[i]);
 }
+
+//Question 12 - Declare an array, sort and print in ascending order
+let arrayB = [4, 23, 7,15, 3, 20];//Declare array
+arrayB.sort((a, b) => a - b); //This stores the first 2 numbers in the array and compares them. Determines if it is positive or negative and prints the lowest num first.
+console.log(arrayB);//Print
+
+//Question 13 -Declare an array, sort and print in descending order
+let arrayC = [10, 23, 7,15, 3, 20];//Declare array
+arrayC.sort((a,b) => b - a); //This stores the first 2 numbers in the array and compares them. Determines if it is positive or negative and prints the lowest num first.
+console.log(arrayC);//Print
