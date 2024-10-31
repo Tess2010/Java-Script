@@ -20,4 +20,16 @@ console.log(multiply(2,3));
 function isEven(x){
     return (x % 2 === 0);
 }
-console.log(isEven(3))
+console.log(isEven(3));
+
+//Question 5 -Square Function
+function square(x){
+    return (x*x);
+}
+console.log(square(4));
+
+//Question 6 - toCelsius
+function toCelsius(x){
+    return (((x-32)/ 1.8));
+}
+console.log(toCelsius(89));
