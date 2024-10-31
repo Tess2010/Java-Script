@@ -67,11 +67,19 @@ minOfTwo(3,8);
 
 // Question 10 - isAdult Function
 function isAdult(age){
-    // if (age >= 18){
+    // if (age >= 18){  Another way to do the code
     //     return (true);
     // } else {
     //     return (false);
     // }
-    return(age >= 18);
+    return(age >= 18); //Shorter way to do the code
 }
 console.log(isAdult(19));
+
+//Question 11 - repeatString Function
+function repeatString(string, number){
+    for(let i = 1; i <= number; i++){
+        console.log(string);
+    }
+}
+repeatString("hello", 2);
