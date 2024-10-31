@@ -30,6 +30,7 @@ console.log(square(4));
 
 //Question 6 - toCelsius
 function toCelsius(x){
-    return (((x-32)/ 1.8));
+    return (((x-32)/1.8));  
+//return (Math.floor((((x-32)/ 1.8)*100))/100); This code is allowing me to ensure my answer is only 2 decimal points
 }
 console.log(toCelsius(89));
