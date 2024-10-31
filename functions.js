@@ -34,3 +34,9 @@ function toCelsius(x){
 //return (Math.floor((((x-32)/ 1.8)*100))/100); This code is allowing me to ensure my answer is only 2 decimal points
 }
 console.log(toCelsius(89));
+
+//Question 7 -greetWithTime (name & timeOfDay)
+function greetWithTime(name, timeOfDay){ //Creating my function
+    console.log(`Good ${timeOfDay}, ${name}`); //Printing my greeting
+}
+greetWithTime("Jill","morning");
