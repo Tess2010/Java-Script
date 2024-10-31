@@ -77,9 +77,23 @@ function isAdult(age){
 console.log(isAdult(19));
 
 //Question 11 - repeatString Function
-function repeatString(string, number){
-    for(let i = 1; i <= number; i++){
-        console.log(string);
+function repeatString(string, number){ //Create function
+    for(let i = 1; i <= number; i++){ //Create loop 
+        console.log(string); //Print
     }
 }
 repeatString("hello", 2);
+
+//Question 11 - findLargest in array
+function findLargest(arr){
+    let largest = arr[0];
+    for(let i = 0; i <= arr.length; i++){
+        if (arr[i] >= largest){
+            largest = arr[i]
+        }
+    }
+    return largest;
+}
+
+let x = [4,2,8,10,26];
+console.log(findLargest(x));
