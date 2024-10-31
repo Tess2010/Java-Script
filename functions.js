@@ -64,3 +64,14 @@ function minOfTwo(x,y){ //Creating my function
     }
 }
 minOfTwo(3,8);
+
+// Question 10 - isAdult Function
+function isAdult(age){
+    // if (age >= 18){
+    //     return (true);
+    // } else {
+    //     return (false);
+    // }
+    return(age >= 18);
+}
+console.log(isAdult(19));
