@@ -40,3 +40,27 @@ function greetWithTime(name, timeOfDay){ //Creating my function
     console.log(`Good ${timeOfDay}, ${name}`); //Printing my greeting
 }
 greetWithTime("Jill","morning");
+
+//Question 8 - maxOfTwo
+function maxOfTwo(x,y){ //Creating my function
+    if (x > y){
+        console.log(x);
+        return (x);
+    } else{
+        console.log(y);
+        return (y);
+    }
+}
+maxOfTwo(3,8);
+
+// Question 9 - minOfTwo Function
+function minOfTwo(x,y){ //Creating my function
+    if (x < y){
+        console.log(x);
+        return (x);
+    } else{
+        console.log(y);
+        return (y);
+    }
+}
+minOfTwo(3,8);
