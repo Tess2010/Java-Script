@@ -113,16 +113,26 @@ let z = [26,5,10,9,2];
 console.log(findSmallest(z)); //Print
 
 //Question 14 - isPalindrome function
-function isPalindrome(string){
-    let reversedString = "";
-    for (let i = string.length - 1; i >= 0; i--){
-        reversedString += string[i];
+function isPalindrome(string){ //Create function
+    let reversedString = ""; //Create variable for reversedString
+    for (let i = string.length - 1; i >= 0; i--){ //Create for loop
+        reversedString += string[i]; //Move string to reversedString variable
 }
-    if (reversedString === string) {
+    if (reversedString === string) { //Create if statement
         return (true);
     } else{
         return(false);
     }
 }
+console.log(isPalindrome("racecar")); //Print 
 
-console.log(isPalindrome("racecr"));
+//Question 15 Factorial function 
+function factorial(num){
+    let answer = 1;
+    for (let i = 1; i <= num; i++){
+        answer *= i;
+    }
+    return(answer)
+}
+console.log(factorial(6))
+
