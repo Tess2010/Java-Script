@@ -136,3 +136,26 @@ function factorial(num){
 }
 console.log(factorial(6))
 
+//Question 16 countVowels Function
+function countVowels(string){
+    let counter = 0;
+    for (let i = 0; i <= string.length -1; i++){
+        if (string[i] == "a"){
+            counter++
+        }
+        else if (string[i] == "e"){
+            counter++
+        }
+        else if (string[i] == "i"){
+            counter++
+        }       
+        else if (string[i] == "o"){
+            counter++
+        }        
+        else if (string[i] == "u"){
+            counter++
+        }
+    }
+    return(counter)
+}
+console.log(countVowels("Supercalifragilisticexpialidoshous"));
