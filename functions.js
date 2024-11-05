@@ -183,7 +183,23 @@ let sum = 0;
     for(let i = 0; i <= array.length -1; i++){
         sum += array[i];
         
-    }return(sum)
+    }return(sum) //Always remember that the retrun must be outside the for loop
 }
 let xyz =[1,2,3,4]
 console.log(sumArray(xyz));
+
+//Question 20 averageArray Function
+function averageArray(array){ //Create function
+    let sum = 0;
+    let avg = 0;
+        for(let i = 0; i <= array.length -1; i++){
+            sum += array[i]; 
+
+        } avg = sum/array.length
+        return(avg) //Always remember that the retrun must be outside the for loop
+        
+
+
+    }
+    let yz =[1,2,3,4]
+    console.log(averageArray(yz));
