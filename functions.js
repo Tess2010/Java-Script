@@ -159,3 +159,10 @@ function countVowels(string){
     return(counter)
 }
 console.log(countVowels("Supercalifragilisticexpialidoshous"));
+
+//Question 17 reverseArray Function
+function reverseArray(array){
+    return(array.reverse())
+}
+let array = [1,2,3,4,5];
+console.log(reverseArray(array));

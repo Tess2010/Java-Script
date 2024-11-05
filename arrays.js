@@ -1,5 +1,5 @@
 //JavaScript Arrays Practice 
-//Question 1 - Declare & pring an array
+//Question 1 - Declare & print an array
 let array = [1,2,3,4,5]; //Declaring my array
 console.log(array); //Printing to console
 
