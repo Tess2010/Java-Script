@@ -137,10 +137,10 @@ function factorial(num){
 console.log(factorial(6))
 
 //Question 16 countVowels Function
-function countVowels(string){
-    let counter = 0;
-    for (let i = 0; i <= string.length -1; i++){
-        if (string[i] == "a"){
+function countVowels(string){ //Create function
+    let counter = 0;//Create counter
+    for (let i = 0; i <= string.length -1; i++){ //Create for loop to go through string
+        if (string[i] == "a"){ //Create ifStatement to filter out and count the vowels
             counter++
         }
         else if (string[i] == "e"){
@@ -156,13 +156,25 @@ function countVowels(string){
             counter++
         }
     }
-    return(counter)
+    return(counter) //Return the counter
 }
-console.log(countVowels("Supercalifragilisticexpialidoshous"));
+console.log(countVowels("Supercalifragilisticexpialidoshous")); //Print the # of vowels
 
 //Question 17 reverseArray Function
-function reverseArray(array){
-    return(array.reverse())
+function reverseArray(array){ //Create function
+    return(array.reverse()) //Return the array reversed
 }
-let array = [1,2,3,4,5];
-console.log(reverseArray(array));
+let array = [1,2,3,4,5]; //Declare your array
+console.log(reverseArray(array)); //Print the reversed array
+
+//Question 18 isPrime function
+function isPrime(num){
+    for(let i = 2; i <= Math.sqrt(num); i++){
+    if (num % i === 0){
+        return(false)
+    }
+    } return(true)
+}
+console.log(isPrime(7));
+    
+
