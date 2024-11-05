@@ -112,4 +112,17 @@ function findSmallest(array){ //Creat function
 let z = [26,5,10,9,2];
 console.log(findSmallest(z)); //Print
 
+//Question 14 - isPalindrome function
+function isPalindrome(string){
+    let reversedString = "";
+    for (let i = string.length - 1; i >= 0; i--){
+        reversedString += string[i];
+}
+    if (reversedString === string) {
+        return (true);
+    } else{
+        return(false);
+    }
+}
 
+console.log(isPalindrome("racecr"));
