@@ -84,7 +84,7 @@ function repeatString(string, number){ //Create function
 }
 repeatString("hello", 2);
 
-//Question 11 - findLargest in array
+//Question 12 - findLargest in array
 function findLargest(arr){
     let largest = arr[0];
     for(let i = 0; i <= arr.length; i++){
@@ -98,4 +98,18 @@ function findLargest(arr){
 let x = [4,2,8,10,26];
 console.log(findLargest(x));
 
-//test
+//Question 13 - findSmallest in array
+function findSmallest(array){ //Creat function
+    let smallest = array[0]; //Creat variable for smallest
+    for(let i = 0; i <= array.length; i++){ //Create for loop 
+        if (array[i] <= smallest){ //Create if statement
+            smallest = array[i] 
+        }
+    }
+    return smallest; 
+}
+
+let z = [26,5,10,9,2];
+console.log(findSmallest(z)); //Print
+
+
