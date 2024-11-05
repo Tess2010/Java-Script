@@ -169,12 +169,21 @@ console.log(reverseArray(array)); //Print the reversed array
 
 //Question 18 isPrime function
 function isPrime(num){
-    for(let i = 2; i <= Math.sqrt(num); i++){
-    if (num % i === 0){
+    for(let i = 2; i <= Math.sqrt(num); i++){ //Create a for loop to determine if the number is divisible by any other number (factor)
+    if (num % i === 0){ //Using "mod" to determine if there is a remainder, which would mean the number is not a prime number
         return(false)
     }
     } return(true)
 }
-console.log(isPrime(7));
+console.log(isPrime(7)); //Print
     
-
+//Question 19 sumArray Function
+function sumArray(array){ //Create function
+let sum = 0;
+    for(let i = 0; i <= array.length -1; i++){
+        sum += array[i];
+        
+    }return(sum)
+}
+let xyz =[1,2,3,4]
+console.log(sumArray(xyz));
