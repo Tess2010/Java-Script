@@ -195,11 +195,17 @@ function averageArray(array){ //Create function
         for(let i = 0; i <= array.length -1; i++){
             sum += array[i]; 
 
-        } avg = sum/array.length
-        return(avg) //Always remember that the retrun must be outside the for loop
-        
-
-
+        } avg = sum/array.length //get the average after you have done the for loop
+        return(avg) //  
     }
     let yz =[1,2,3,4]
     console.log(averageArray(yz));
+
+    //Question 21 capitalizeFirstLetter Function, assuming teresa is the input
+    function capitalizeFirstLetter(stringS){ //Create function
+        let c = stringS[0].toUpperCase(); //Create variable to capitalize first letter
+        let remainder = stringS.slice(1); //Use slice to remove "r" (first index) and store remainder of string
+        return (c + remainder)
+    } 
+    let y = "rebecca";
+    console.log(capitalizeFirstLetter(y)); //Output is Rebecca
