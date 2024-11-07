@@ -16,18 +16,34 @@ let stringArray = ["Tyrese","Jaydis","Derrick","Luna","Nahmir"];
         console.log(stringArray[i]);
     }
 
-    //Ques. 4 -Declare an array, find the maximum and print the result
-    let arr = [2,4,6,8]; //Declare array
-    let maximum = arr[0]; //Create variable to hold maximum
-        for(let i = 0; i < arr.length; i++){ //Create for loop to filter through array
-            if (arr[i] > maximum){ //Create ifstatement to determine if new # is maximum
+ //Ques. 4 -Declare an array, find the maximum and print the result
+let arr = [2,4,6,8]; //Declare array
+let maximum = arr[0]; //Create variable to hold maximum
+    for(let i = 0; i < arr.length; i++){ //Create for loop to filter through array
+        if (arr[i] > maximum){ //Create ifstatement to determine if new # is maximum
             maximum = arr[i];//Create new maximum
 
         }
     } console.log(maximum);//Print
 
-    //Ques. 5 - Declare array, reverse and print reserved array
-    let arr1 = [2,4,6,8,10];
+//Ques. 5 - Declare array, reverse and print reserved array
+let arr1 = [2,4,6,8,10];
     for(let i = 4; i >= 0; i--){
         console.log(arr1[i]);
     }
+
+
+//Ques. 6 -Declare array, use filter method to create new array with even numbers
+let newArr = [];
+    function filter(arr2){
+    for(let i = 0; i <= arr2.length-1; i++){
+        if (arr2[i] % 2 == 0){
+            newArr.push(arr2[i]);
+        }
+    }  return newArr
+} 
+let tt = [1,2,3,4,5,6];
+console.log(filter(tt));
+
+
+    
