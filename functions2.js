@@ -10,4 +10,10 @@ let sumOfArray = 0; //Declare sum for storage
     }
     console.log(sumOfArray);//Print sum to console
 
+//Ques. 3 -Declare string array and print each on a new line
+let stringArray = ["Tyrese","Jaydis","Derrick","Luna","Nahmir"];
+    for(let i = 0; i <= stringArray.length - 1; i++){
+        console.log(stringArray[i]);
+    }
+
 
