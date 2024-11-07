@@ -32,18 +32,33 @@ let arr1 = [2,4,6,8,10];
         console.log(arr1[i]);
     }
 
-
 //Ques. 6 -Declare array, use filter method to create new array with even numbers
-let newArr = [];
-    function filter(arr2){
-    for(let i = 0; i <= arr2.length-1; i++){
-        if (arr2[i] % 2 == 0){
-            newArr.push(arr2[i]);
+let newArr = []; //Create variable to store new array
+    function filter(arr2){ //Create filter function(method)
+    for(let i = 0; i <= arr2.length-1; i++){ //For loop to filter through array
+        if (arr2[i] % 2 == 0){ //ifstatement to figure if number is even
+            newArr.push(arr2[i]);// Push even number to new array
         }
-    }  return newArr
+    }  return newArr // Sends the value to the function so it stops executing
 } 
-let tt = [1,2,3,4,5,6];
-console.log(filter(tt));
+let tt = [1,2,3,4,5,6]; //Declare your array
+console.log(filter(tt)); //Print new array using filter function
 
+//Ques. 7 Create array of names loop to print with greeting ("Hello,<name>!)
+let arrayB = ["Tim","Jim","Lou","Sue","Tonya"]; //Declare array
+    function greet(){ //Create function
+        for(let i = 0; i <= arrayB.length -1; i++){ ///For loop to filter through array
+            console.log("Hello " + arrayB[i]+ "!");//Print to console
+        }  
+    }
+    
+    
+
+
+
+    
+    
+
+    
 
     
