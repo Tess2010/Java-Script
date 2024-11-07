@@ -197,15 +197,40 @@ function averageArray(array){ //Create function
 
         } avg = sum/array.length //get the average after you have done the for loop
         return(avg) //  
-    }
+}
     let yz =[1,2,3,4]
     console.log(averageArray(yz));
 
-    //Question 21 capitalizeFirstLetter Function, assuming teresa is the input
-    function capitalizeFirstLetter(stringS){ //Create function
-        let c = stringS[0].toUpperCase(); //Create variable to capitalize first letter
-        let remainder = stringS.slice(1); //Use slice to remove "r" (first index) and store remainder of string
+//Question 21 capitalizeFirstLetter Function, assuming teresa is the input
+function capitalizeFirstLetter(stringS){ //Create function
+    let c = stringS[0].toUpperCase(); //Create variable to capitalize first letter
+    let remainder = stringS.slice(1); //Use slice to remove "r" (first index) and store remainder of string
         return (c + remainder)
-    } 
+} 
     let y = "rebecca";
     console.log(capitalizeFirstLetter(y)); //Output is Rebecca
+
+//Question 22 removeWhitespace Function
+function removeWhitespace(stringZ){ //Create function
+    let result = stringZ.replaceAll(" ","");//Use replaceAll to get rid of whitespace
+    return(result);
+}
+    let text = "    I lOvE  yOu !!";
+    console.log(removeWhitespace(text));
+
+//Question 23 toUpperCase Function
+function toUpperCase2(str){
+    let bb = str.toUpperCase();
+    return bb;
+}
+let bbb = "i love you";
+console.log(toUpperCase2(bbb));
+
+//Question 24 toLowerCase Function
+function toLowerCase2(strC){
+    let cc = strC.toLowerCase();
+    return cc;
+}
+let ccc = "I LOVE PIZZA";
+console.log(toLowerCase2(ccc));
+
