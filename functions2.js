@@ -52,6 +52,12 @@ let arrayB = ["Tim","Jim","Lou","Sue","Tonya"]; //Declare array
         }  
     }
     
+//Ques. 8 - Declare array of strings use "map" to create a new array in all uppercase   
+let string = ["i","love","my","grandchildren"];
+newString = string.map(function(abc){
+    return abc.toUpperCase();
+});
+console.log(newString);
     
 
 
