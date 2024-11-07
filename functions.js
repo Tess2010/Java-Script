@@ -234,3 +234,18 @@ function toLowerCase2(strC){
 let ccc = "I LOVE PIZZA";
 console.log(toLowerCase2(ccc));
 
+//Question 25 mergeArrays Function
+function mergeArrays(array1, array2){ //Creat function
+    let newArray = []; //Create variable to hold new array
+    for(let i=0; i<array1.length; i++){ //Use a for loop to push the first array to the new array
+        newArray.push(array1[i]);
+    }
+    for(let i=0; i<array2.length; i++){ //Use a for loop to push the second array to the new array
+        newArray.push(array2[i]);
+    }
+    return newArray; //Return the new array
+}
+array1 = [1,2,3]; //Create array1
+array2 = [4,5,6]; //Create array 2
+newArray = mergeArrays(array1, array2); // mergae arrays
+console.log(newArray); //Print new array to console
