@@ -98,7 +98,12 @@ function isEven(x){
         return true;
     } else {
         return false;
-    }
-       
+    }  
 }
 console.log(isEven(24));
+
+//Ques. 4 - calculateArea function
+function calculateArea(a,b){
+    return (a*b)
+}
+console.log(calculateArea(7,9));
