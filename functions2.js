@@ -118,3 +118,26 @@ function reverseString(str){
 }
 let bab= "Mississippi";
 console.log(reverseString(bab));
+
+//Ques. 6 - countVowels function
+function countVowels(string){ //Create function
+    let counter = 0;//Create counter
+    for (let i = 0; i <= string.length -1; i++){ //Create for loop to go through string
+        if (string[i] == "a"){ //Create ifStatement to filter out and count the vowels
+            counter++
+        }
+        else if (string[i] == "e"){
+            counter++
+        }
+        else if (string[i] == "i"){
+            counter++
+        }       
+        else if (string[i] == "o"){
+            counter++
+        }        
+        else if (string[i] == "u"){
+            counter++
+        }
+    }
+    return(counter) //Return the counter
+} console.log(countVowels("Peter Piper"));
