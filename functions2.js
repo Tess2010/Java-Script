@@ -157,3 +157,12 @@ function toFahrenheit(c){
     return (((c * (9/5))+32));
 }
 console.log(toFahrenheit(24));
+
+//Ques. 9 - capitalize
+function capitalize(abcd){
+   let c = abcd[0].toUpperCase(); 
+    let remainder = abcd.slice(1);
+            return (c + remainder)
+}
+let nom = "anthony";
+console.log(capitalize(nom));
