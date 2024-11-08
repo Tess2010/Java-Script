@@ -82,3 +82,12 @@ function sayHello(name){
 }
 sayHello("Tyrese");
     
+//Ques. 2 - square function
+function square(number){
+    if (number < 0){
+        return;
+    }
+    return Math.sqrt(number);
+    }
+console.log (square(64));
+console.log(square(100));
