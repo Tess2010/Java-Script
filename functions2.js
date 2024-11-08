@@ -91,3 +91,14 @@ function square(number){
     }
 console.log (square(64));
 console.log(square(100));
+
+//Ques.3 - isEven function
+function isEven(x){
+    if(x % 2 === 0){
+        return true;
+    } else {
+        return false;
+    }
+       
+}
+console.log(isEven(24));
