@@ -151,3 +151,9 @@ function isPrime(num){
     } return(true)
 }
 console.log(isPrime(19));
+
+//Ques. 8 - toFarenheit function
+function toFahrenheit(c){
+    return (((c * (9/5))+32));
+}
+console.log(toFahrenheit(24));
