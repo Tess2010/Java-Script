@@ -248,4 +248,4 @@ function mergeArrays(array1, array2){ //Creat function
 array1 = [1,2,3]; //Create array1
 array2 = [4,5,6]; //Create array 2
 newArray = mergeArrays(array1, array2); // mergae arrays
-console.log(newArray); //Print new array to console
+console.log(newArray); //Print new array to

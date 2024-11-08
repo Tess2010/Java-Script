@@ -158,7 +158,7 @@ function toFahrenheit(c){
 }
 console.log(toFahrenheit(24));
 
-//Ques. 9 - capitalize
+//Ques. 9 - capitalize function
 function capitalize(abcd){
    let c = abcd[0].toUpperCase(); 
     let remainder = abcd.slice(1);
@@ -166,3 +166,20 @@ function capitalize(abcd){
 }
 let nom = "anthony";
 console.log(capitalize(nom));
+
+//Ques. 10 - mergeArrays function
+function mergeArrays(arrayU,arrayV){
+    let newArrayW = [];
+    for(let i = 0; i < arrayU.length; i++){
+        newArrayW.push(arrayU[i]);
+    }
+    for(let i = 0; i < arrayV.length; i++){
+        newArrayW.push(arrayV[i]);
+    }   
+    return newArrayW;
+}
+let gg = [10,9,8,7,6];
+let hh = [6,7,8,9,10];
+newArrayW = mergeArrays(gg,hh);
+console.log(newArrayW);
+
