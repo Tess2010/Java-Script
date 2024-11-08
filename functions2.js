@@ -107,3 +107,14 @@ function calculateArea(a,b){
     return (a*b)
 }
 console.log(calculateArea(7,9));
+
+//Ques. 5 - reverseString function
+function reverseString(str){
+    let newStrg = "";
+    for(let i = str.length - 1; i >= 0; i--){
+        newStrg += str[i]
+    }
+    return newStrg;
+}
+let bab= "Mississippi";
+console.log(reverseString(bab));
