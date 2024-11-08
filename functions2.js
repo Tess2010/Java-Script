@@ -1,3 +1,4 @@
+//ARRAYS:
 //Ques. 1 -Create an array of favorite color and print the first one
 let array = ["orange","purple","red","black","blue"]; //Array of avorite colors
     console.log(array[0]);//Print first color in array
@@ -58,11 +59,15 @@ newString = string.map(function(abc){
     return abc.toUpperCase();
 });
 console.log(newString);
-    
+
+//Ques. 9 -Declare array, use 'reduce'method to find the product
+let arrayZ = [1,2,3,4];
+let prod = arrayZ.reduce((product,num)=>product*num,1);
+console.log(prod);
 
 
+//Ques. 10 -Create array with numbers and strings with "filter" create new array and print
 
-    
     
 
     
