@@ -1,4 +1,4 @@
-//ARRAYS:
+//ARRAY QUESTIONS:
 //Ques. 1 -Create an array of favorite color and print the first one
 let array = ["orange","purple","red","black","blue"]; //Array of avorite colors
     console.log(array[0]);//Print first color in array
@@ -74,5 +74,11 @@ let tlk = [1,"terri",2,"jerri",3,"sue",4]; //Declare your array
 let numbers = tlk.filter(item => typeof item === 'number');
 console.log(numbers);
     
+//FUNCTION QUESTIONS:
 
+//Ques. 1 - sayHello function
+function sayHello(name){
+    console.log(`Hello, ${name}!`);
+}
+sayHello("Tyrese");
     
