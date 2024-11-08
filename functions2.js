@@ -61,15 +61,18 @@ newString = string.map(function(abc){
 console.log(newString);
 
 //Ques. 9 -Declare array, use 'reduce'method to find the product
-let arrayZ = [1,2,3,4];
+let arrayZ = [1,2,3,4]; //Declare array
+//Store product from redcue function
 let prod = arrayZ.reduce((product,num)=>product*num,1);
+//Print to console
 console.log(prod);
 
 
 //Ques. 10 -Create array with numbers and strings with "filter" create new array and print
 
-    
-
+let tlk = [1,"terri",2,"jerri",3,"sue",4]; //Declare your array
+let numbers = tlk.filter(item => typeof item === 'number');
+console.log(numbers);
     
 
     
