@@ -73,4 +73,10 @@ house.numberOfRooms = 4;
 house.location = "Bedford";
 console.log(house.type + " " + house.numberOfRooms);
 
-
+//Ques. 10 - Create an object called teacher with properties name, subject, and yearsOfExperience. 
+//Print a sentence about the teacher's name and subject they teach.
+const teacher = {};
+teacher.name = "Mr. Donelly";
+teacher.subject = "English";
+teacher.yearsOfExperience = 30;
+console.log(teacher.name + " teaches " + teacher.subject + ".");
