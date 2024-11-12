@@ -49,3 +49,18 @@ computer.brand = "Apple";
 computer.processor = "M3";
 computer.ram = 24;
 console.log(computer.brand);
+
+//Ques. 7 - Create an object called phone with properties brand, model, and price. Print the price of the phone.
+const phone ={};
+phone.brand = "Google";
+phone.model = "Pixel8";
+phone.price = 800.00;
+console.log("$" +phone.price);
+
+//Ques. 8 - Create an object animal with properties species, name, and age.
+//Print the species and name of the animal in a sentence.
+const animal = {};
+animal.species = "cat";
+animal.name = "Sage";
+animal.age  = 4;
+console.log("My daughter's " + animal.species + " is named " + animal.name +".");
