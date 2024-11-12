@@ -18,7 +18,7 @@ const car ={};
 car.brand = "Hyundai";
 car.model = "Palisade";
 car.year = 2025;
-console.log("My dream vehicle is a " + car.year," " + car.brand);
+console.log("My dream vehicle is a " + car.year," " + car.brand +".");
 
 //Ques. 3 - Create an object called book with properties title, author, and pages. 
 //Print the number of pages in the book.
@@ -34,3 +34,11 @@ const student={};
 student.firstName = "Derrick";
 student.lastName = "Parham";
 console.log(student.firstName + " " + student.lastName); 
+
+//Ques. 5 - Create an object called movie with properties title, director, and releaseYear. 
+//Print the movie's title and release year in a sentence.
+const movie = {};
+movie.title = "Pretty Woman";
+movie.director = "Gary Marshall";
+movie.releaseYear = 1990;
+console.log("The movie " + movie.title + " was released in " +movie.releaseYear + ".");
