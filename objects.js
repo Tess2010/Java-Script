@@ -42,3 +42,10 @@ movie.title = "Pretty Woman";
 movie.director = "Gary Marshall";
 movie.releaseYear = 1990;
 console.log("The movie " + movie.title + " was released in " +movie.releaseYear + ".");
+
+//Ques. 6 - Create an object called computer with properties brand, processor, and RAM. Print the brand of the computer.
+const computer = {};
+computer.brand = "Apple";
+computer.processor = "M3";
+computer.ram = 24;
+console.log(computer.brand);
