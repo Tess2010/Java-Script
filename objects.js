@@ -64,3 +64,13 @@ animal.species = "cat";
 animal.name = "Sage";
 animal.age  = 4;
 console.log("My daughter's " + animal.species + " is named " + animal.name +".");
+
+//Ques. 9 - Create an object called house with properties type, numberOfRooms, and location. 
+//Print the type and number of rooms.
+const house = {};
+house.type = "semi-detached";
+house.numberOfRooms = 4;
+house.location = "Bedford";
+console.log(house.type + " " + house.numberOfRooms);
+
+
