@@ -80,3 +80,11 @@ teacher.name = "Mr. Donelly";
 teacher.subject = "English";
 teacher.yearsOfExperience = 30;
 console.log(teacher.name + " teaches " + teacher.subject + ".");
+
+//Ques. 11 - Create an object called job with properties title, company, and salary. 
+//Print the job title and salary in a sentence.
+const job = {};
+job.title = "Program Developer";
+job.company = "Electronic Games";
+job.salary = "50,000";
+console.log("Entry level salary for a " + job.title + " is $" + job.salary);
