@@ -111,3 +111,14 @@ bankAccount.getUserName = function(){
     console.log(this.accountHolder);
 }
 bankAccount.getUserName();
+
+//Ques. 14 - Create an object called game with properties name, genre, and platform. 
+//Print the game name and platform.
+
+let game = {};
+game.name = "The Sims: Vacation";
+game.genre = "life simulation";
+game.platform = "PC";
+
+console.log(game.name + "  " + game.platform);
+
