@@ -88,3 +88,26 @@ job.title = "Program Developer";
 job.company = "Electronic Games";
 job.salary = "50,000";
 console.log("Entry level salary for a " + job.title + " is $" + job.salary);
+
+//Ques. 12 - Create an object called user with properties username and email.
+//Add a method to the object that prints the user's username.
+let user ={};
+user.userName = "Jaydis Maleek";
+user.email = "maleek2011@yahoo.ca";
+
+user.getUserName = function () {
+    console.log(this.userName);
+}
+user.getUserName();
+
+//Ques. 13 - Create an object bankAccount with properties accountNumber, balance, and accountHolder. 
+//Print the account holder's name.
+const bankAccount = {};
+bankAccount.accountNumber = 5042335;
+bankAccount.balance = "1,234";
+bankAccount.accountHolder = "Alice Green";
+
+bankAccount.getUserName = function(){
+    console.log(this.accountHolder);
+}
+bankAccount.getUserName();
