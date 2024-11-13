@@ -122,3 +122,12 @@ game.platform = "PC";
 
 console.log(game.name + "  " + game.platform);
 
+//Ques. 15 Create an object called recipe with properties name, ingredients (an array of strings), and timeToCook. 
+//Print the recipe name and the number of ingredients.
+let recipes = {};
+recipes.name = "Best Meatloaf";
+recipes.ingredients = ["ground-beef", "tomato sauce", "2 eggs", "rolled oats", "onion soup mix"];
+recipes.timeToCook = "50-60 minutes"
+
+console.log("Recipe Name: " + recipes.name);
+console.log("Number of ingredients: " + recipes.ingredients.length);
