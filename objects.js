@@ -161,3 +161,18 @@ const store = {
     ]
 }
 console.log(store.name + " " + store.products[0].price);
+
+//Ques. 18 - Create an object called smartphone with properties brand, model, and features (an array of strings). 
+//Print all the features using a loop.
+const smartphone = {
+    brand: "Google",
+    model: "Pixel 8",
+    features: ["Camera/Selfie Camera","Night Sight","Audio Magic Eraser",
+        "Video Boost", "Google Ai","Fast Charging","Wireless Charging",
+        "Call Screen","7 years Security Updates",
+    ]
+};
+//Use a for loop to print all the features
+for(let i = 0; i <= smartphone.features.length; i++){
+    console.log(smartphone.features[i]);
+}
