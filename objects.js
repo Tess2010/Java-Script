@@ -199,3 +199,16 @@ const restaurant ={
     ]
 };
 console.log(restaurant.name + " " + restaurant.menu[0]);
+
+//Ques. 21 - Create an object player with properties name, team, and scores (an array of numbers). 
+//Print the player's name and total score by adding all the scores.
+const players = {
+    name: "Jason Balthazar",
+    team: "The Gritties",
+    scores: [145, 236, 389, 478, 689]
+};
+let totalScore = 0;
+for(let i = 0; i <= players.scores.length-1; i++){
+    totalScore += players.scores[i];
+}
+console.log(players.name + " " + totalScore);
