@@ -188,3 +188,14 @@ const vacation = {
     ]
 };
 console.log(vacation.destination + " " + vacation.activities[0]);
+
+//Ques. 20 - Create an object called restaurant with properties name, location, and menu (an array of objects with dishName and price). 
+//Print the name of the restaurant and the name of the first dish on the menu.
+const restaurant ={
+    name: "Habibi's",
+    location: "5767 Your Place Blvd, Halifax",
+    menu: ["Steak & potatoes","Shawarma  Plate","Mediterranian Plate",
+        "Tomato Chicken & Potato Bake","Lamb chops and roasted vegetables"
+    ]
+};
+console.log(restaurant.name + " " + restaurant.menu[0]);
