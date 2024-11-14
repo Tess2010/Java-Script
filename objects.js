@@ -212,3 +212,21 @@ for(let i = 0; i <= players.scores.length-1; i++){
     totalScore += players.scores[i];
 }
 console.log(players.name + " " + totalScore);
+
+//Ques. 22 - Create an object bookstore with properties name, location, and inventory (an array of objects with title and price). 
+//Print the name of the bookstore and the price of the first book.
+const bookstore ={
+    name: "Whispering Pages",
+    location: "1967 Alphabet Lane, Storybrook", 
+    inventory: [
+        {title:"Charlotte's Web", price:"$15.98"},
+        {title:"The Very Hungry Caterpiller", price:"$12.98"},
+        {title:"Green Eggs and Ham", price:"$14.98"},
+        {title:"The Chronicles of Narnia", price:"$10.98"},
+        {title:"Goodnight Moon", price:"$11.98"},
+        {title:"A Wrinkle in Time", price:"$13.48"},
+        {title:"Oh, the Places You'll Go!", price:"$17.98"},
+        {title:"Little House on the Prairie", price:"$14.98"},
+    ]
+};
+console.log(bookstore.name + " " + bookstore.inventory[0].price);
