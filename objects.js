@@ -173,6 +173,18 @@ const smartphone = {
     ]
 };
 //Use a for loop to print all the features
-for(let i = 0; i <= smartphone.features.length; i++){
+for(let i = 0; i <= smartphone.features.length -1; i++){
     console.log(smartphone.features[i]);
 }
+
+//Ques. 19 - Create an object called vacation with properties destination, duration, and activities (an array of strings). 
+//Print the destination and the first activity in the list.
+const vacation = {
+    destination: "Portugal",
+    duration: "10 days",
+    activities: ["Visit the beaches", "Tour Porto", 
+        "Visit Sintra & the Pena Palace", " Go hikie in the Azores",
+        "Wine Tasting in Douro Valley"
+    ]
+};
+console.log(vacation.destination + " " + vacation.activities[0]);
