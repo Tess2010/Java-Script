@@ -147,3 +147,17 @@ books: [{author:"Michelle Good" , title:"Five Little Indians"},
 } 
 //Print the title of the first book by using the 'object'.'index number of the array'.object
 console.log(library.books[0].title);
+
+//Ques. 17 - Create an object store with properties name, location, and products (an array of objects with productName and price). 
+//Print the name of the store and the price of the first product.
+const store = {
+    name: "Tyrese's Tasty Treats",
+    location: "1231 December St, Halifax",
+    products: [
+        {productName:"Skinny Toads", price: "$8.00/dz"},
+        {productName:"Roblox Roadies", price:"$1.25"},
+        {productName:"Shake-em-Down Sundaes", price:"$2.99"},
+        {productName:"Minecraft Milkshakes", price:"$4.99"},
+    ]
+}
+console.log(store.name + " " + store.products[0].price);
