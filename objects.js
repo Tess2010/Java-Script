@@ -131,3 +131,19 @@ recipes.timeToCook = "50-60 minutes"
 
 console.log("Recipe Name: " + recipes.name);
 console.log("Number of ingredients: " + recipes.ingredients.length);
+
+//Ques. 16- Create an object called library with properties name, location, and books (an array of objects, each with a title and author). 
+//Print the title of the first book.
+
+//Create object with name & location of library
+const library = {
+name: "South City Public Library",
+location:"2345 Sant Thomas Blvd",
+//Create array of books in library with author & tite
+books: [{author:"Michelle Good" , title:"Five Little Indians"},
+    {author:"Shelton Johnson" , title:"Gloryland"},
+    {author:"Harper Lee" , title:"To Kill a Mockingbird"},
+    {author:"Johanna Spyri" , title:"Heidi"}]
+} 
+//Print the title of the first book by using the 'object'.'index number of the array'.object
+console.log(library.books[0].title);
