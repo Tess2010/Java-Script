@@ -244,4 +244,18 @@ const playlist = {
         {title: "Roll It Roll It", duration: "4:08"},
     ]
 };
-console.log(playlist.name + " " + playlist.song[0].title);
+console.log(playlist.name + " " + playlist.songs[0].title);
+
+//Ques. 24 - Create an object called sportsTeam with properties teamName, players (an array of strings), and coach. 
+//Print the team name and the coach's name.
+const sportsTeam = {
+    teamName:"Blu Krew",
+    players:["Kortnee Lane", "Kelly Sims", "Kristee Lee",
+        "Kendra Kane", "Krishawna Colley", "Kelsey Tynes", 
+        "Kim Mackey", "Kamila Harry", "Kiara Sims",
+        "Kendall Brown", "Kennedy Brooks","Kaashvi Gupdar",
+        "Kinsley Kelly", "Kaylani Kelly", "Krista Nordstrom"    
+    ],
+    coach: "Terri-Lynn Kelsie"
+};
+console.log(sportsTeam.teamName + " " + sportsTeam.coach);
