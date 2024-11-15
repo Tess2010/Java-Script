@@ -230,3 +230,18 @@ const bookstore ={
     ]
 };
 console.log(bookstore.name + " " + bookstore.inventory[0].price);
+
+//Ques. 23 - Create an object playlist with properties name, songs (an array of objects with title and artist), and duration. 
+//Print the playlist name and the title of the first song.
+const playlist = {
+    name: "Southern Soul",
+    songs: [
+        {title: "Got My Whiskey", duration: "3:48"},
+        {title: "Party Like We Use To Do", duration: "5:55"},
+        {title: "Lil Weight", duration: "4:31"},
+        {title: "Mr Sexy Man", duration: "4:10"},
+        {title: "If I Back It Up", duration: "3:48"},
+        {title: "Roll It Roll It", duration: "4:08"},
+    ]
+};
+console.log(playlist.name + " " + playlist.song[0].title);
